@@ -1,0 +1,15 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/ProductService/bin/Debug/net8.0
+/ApiGateway/bin/Debug/net8.0
+/ApiGateway/obj
+/ApiGateway/Properties
+/.vs/jsportinggoods
+/ProductService/obj
+/ProductService/Properties
+/ApiGateway/appsettings.Development.json
+/ApiGateway/appsettings.json
+/ProductService/appsettings.Development.json
+*.json
