@@ -13,3 +13,12 @@
 /ApiGateway/appsettings.json
 /ProductService/appsettings.Development.json
 *.json
+/Catalog.API/Catalog.API/bin/Debug/net8.0
+/Catalog.API/Catalog.API/obj
+/Catalog.Core/bin/Debug/net8.0
+/Catalog.Core/obj
+/Catalog.Infrastructure/bin/Debug/net8.0
+/Catalog.Infrastructure/obj
+/Catalop.Application/bin/Debug/net8.0
+/Catalop.Application/obj
+/.vs/ProjectEvaluation
