@@ -7,11 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Data\" />
-    <Folder Include="Repositories\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Catalog.Core\Catalog.Core.csproj" />
     <ProjectReference Include="..\Catalop.Application\Catalop.Application.csproj" />
   </ItemGroup>

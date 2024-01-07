@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Catalog.Core.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,8 @@ using System.Threading.Tasks;
 
 namespace Catalog.Core.Repositories
 {
-    internal class IBrandRepository
+    public interface IBrandRepository
     {
+        Task<IEnumerable<ProductBrand>> GetBrandsAsync();
     }
 }
