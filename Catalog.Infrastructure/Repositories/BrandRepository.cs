@@ -1,15 +1,15 @@
 ﻿using Catalog.Core.Entities;
+using Catalog.Core.Interfaces;
 using Catalog.Core.Repositories;
-using Catalog.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
 namespace Catalog.Infrastructure.Repositories
 {
     public class BrandRepository : IBrandRepository
     {
-        private readonly CatalogContext _context;
+        private readonly ICatalogContext _context;
 
-        public BrandRepository(CatalogContext context)
+        public BrandRepository(ICatalogContext context)
         {
             _context = context;
         }

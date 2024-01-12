@@ -1,15 +1,15 @@
 ﻿using Catalog.Core.Entities;
 using Catalog.Core.Repositories;
-using Catalog.Infrastructure.Data;
+using Catalog.Core.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace Catalog.Infrastructure.Repositories
 {
     public class TypesRepository : ITypesRepository
     {
-        private readonly CatalogContext _context;
+        private readonly ICatalogContext _context;
 
-        public TypesRepository(CatalogContext context)
+        public TypesRepository(ICatalogContext context)
         {
             _context = context;
         }
